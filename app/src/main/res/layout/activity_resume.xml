@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/edt_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_name_resume"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/txt_color"/>
+
+    <TextView
+        android:id="@+id/txtNameResume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textColor="@color/txt_color"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_back"
+        android:backgroundTint="@color/btn_color"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AgendaV3</string>
+    <string name="edt_name_hint">Insert Name Here !</string>
+    <string name="btn_save">Save</string>
+    <string name="txt_name_resume">Name:</string>
+    <string name="btn_back">Back</string>
+    <string name="empty_field">Empty Field</string>
+</resources>
